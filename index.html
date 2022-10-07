@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>'Narcan Behind Every Bar': How NYC Nightlife is Leading The Forefront in Fighting Against Opioid Overdoses</h1>
+        <h2> October 7, 2022. By Mariana Martínez Barba</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="main_img" src="images/now.jpg">
+        <figcaption> Image of Nowadays nightclub after a night of live DJs. <span class="credit">Credit: Nowadays</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>The presence of fentanyl in NYC’s drug supply continues to rise, causing a number of opioid deaths. Contrary to what the public may think, 1% of Opioid overdoses only occur in nightlife precincts. However, across the five boroughs exists communities and organizations that are working to promote safer alternatives to preventing overdoses - with nightlife at the forefront of this movement. Just recently, Brooklyn Council Member Chi Ossé along with 36 co-sponsors have passed the “Nightlife Opioid Antagonist Program.” This program ensures that naloxone or narcan, an opioid overdose reversal drug, will be available to all bars and nightclubs beginning January 23rd 2022. “Narcan is a better safe than sorry scenario, we are taking advantage of the fact that (nightlife) and these spaces are opportunities where people can look out for one another and educate each other,” commented Ariel Palitz, Senior Executive Director of the Office of Nightlife.  </p>
+        <p>In order to best inform this story, I chose the following graphics below as visual representations of each key fact. For example, the ambulance icon is meant to describe the work of first responders and how they have reacted to overdose situations. The second icon depicts a relation to the deaths with a flatlining visual. The third icon includes a dancing individual, relating to the positive statistics of narcan use. Lastly, the last icon with the heart demonstrates a band-aid on it, paired with an explanation of how narcan works to reverse an overdose.
+        </p>
+      </section>
+
+      <h3 class="flex-hed">Key Facts:</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="small" src="images/ambulance.png"> 
+          </figure>
+          <section class="sub_text">
+            <p> The first three months of 2022 saw NYC emergency services first responders administer naloxone 2,240 times.
+          </section>
+        </section>
+
+
+         <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/pulse.png">
+          </figure>
+          <section class="sub_text">
+            <p> According to the CDC, more than 104,000 Americans died due to a drug overdose between September 2020 and September 2021.
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/dance.png">
+          </figure>
+          <section class="sub_text">
+            <p> A large-scale national study showed that opioid overdose deaths decreased by 14 percent in states after they enacted narcan access laws.</p>
+          </section>
+        </section>
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/health.png">
+          </figure>
+          <section class="sub_text">
+            <p>Naloxone (narcan) quickly reverses an overdose by blocking the effects of opioids. It can restore normal breathing within 2 to 3 minutes in a person whose breath has slowed, or even stopped, as a result of opioid overdose.</p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+<div class="footer">
+   <p> Sources: 
+          <a href= "https://www.cityandstateny.com/policy/2022/09/narcan-every-bar-many-new-york-city-council-hope-so/377137/">City and State NY</a>,
+          <a href= "https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm">Center for Disease Control</a>, <a href= "https://nida.nih.gov/publications/naloxone-opioid-overdose-life-saving-science"> National Institute of Drug Abuse</a>
+
+Icon Sources: Megan Chow, Vectplus, Setyo Ari Wibowo - The Noun Project
+
+        </p></div>
+
+
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+
+  </body>
+
+</html>
